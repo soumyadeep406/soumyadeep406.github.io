@@ -169,3 +169,7 @@ button { font: inherit; }
 .project-visual--todo { background:linear-gradient(135deg, #171b22, #303640); }
 .project-visual--profile { background:linear-gradient(135deg, #151a22, #37404d); }
 .project-visual--pixel { background:linear-gradient(135deg, #131820, #2b3442); }
+
+/* Current experience emphasis */
+.timeline__item--current strong { display: inline-flex; align-items: center; gap: .35rem; }
+.timeline__item--current strong::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--accent-dark); }
